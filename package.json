@@ -1,0 +1,17 @@
+{
+  "name": "propharma",
+  "version": "1.0.0",
+  "description": "Landing page for ProPharma",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Atkhamov",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}
